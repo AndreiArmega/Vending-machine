@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#TTL" name="6"/>
+  <lib desc="#TCL" name="7"/>
+  <lib desc="#Base" name="8"/>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#Input/Output-Extra" name="10"/>
+  <lib desc="#Soc" name="11"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Poke Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool"/>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <sep/>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+    <tool lib="1" name="XOR Gate"/>
+    <tool lib="1" name="NAND Gate"/>
+    <tool lib="1" name="NOR Gate"/>
+    <sep/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="2.0"/>
+    <comp lib="0" loc="(1040,420)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1050,40)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="bancnotede1"/>
+      <a name="output" val="true"/>
+      <a name="width" val="6"/>
+    </comp>
+    <comp lib="0" loc="(1050,70)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="bancnotede5"/>
+      <a name="output" val="true"/>
+      <a name="width" val="6"/>
+    </comp>
+    <comp lib="0" loc="(1230,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="bancnota5"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1230,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="bancnota1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1330,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="cola1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1330,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="cola2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(210,300)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="0" loc="(330,590)" name="Clock"/>
+    <comp lib="0" loc="(370,130)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="RESETptDEV"/>
+    </comp>
+    <comp lib="0" loc="(370,460)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="BANCNOTE"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(380,510)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="COLA3lei"/>
+    </comp>
+    <comp lib="0" loc="(380,560)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="PEPSI4lei"/>
+    </comp>
+    <comp lib="0" loc="(380,620)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="REST"/>
+    </comp>
+    <comp lib="0" loc="(990,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="CREDIT"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="5" loc="(960,140)" name="LED">
+      <a name="color" val="#0af05d"/>
+    </comp>
+    <comp lib="5" loc="(960,160)" name="LED"/>
+    <comp loc="(1250,590)" name="ALU">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(530,260)" name="decodificator">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(880,540)" name="FrequencyDivider">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(890,340)" name="calculator">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(890,50)" name="registru_bancnote">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(890,650)" name="d_ff">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(1030,540)" to="(1030,590)"/>
+    <wire from="(1040,40)" to="(1040,60)"/>
+    <wire from="(1040,40)" to="(1050,40)"/>
+    <wire from="(1040,70)" to="(1040,80)"/>
+    <wire from="(1040,70)" to="(1050,70)"/>
+    <wire from="(1220,200)" to="(1220,210)"/>
+    <wire from="(1220,200)" to="(1330,200)"/>
+    <wire from="(1240,630)" to="(1250,630)"/>
+    <wire from="(1250,590)" to="(1300,590)"/>
+    <wire from="(1250,610)" to="(1290,610)"/>
+    <wire from="(1250,630)" to="(1370,630)"/>
+    <wire from="(1290,610)" to="(1290,720)"/>
+    <wire from="(1300,190)" to="(1300,590)"/>
+    <wire from="(1320,220)" to="(1320,260)"/>
+    <wire from="(1320,220)" to="(1330,220)"/>
+    <wire from="(1370,630)" to="(1370,750)"/>
+    <wire from="(210,300)" to="(210,440)"/>
+    <wire from="(210,440)" to="(380,440)"/>
+    <wire from="(230,270)" to="(240,270)"/>
+    <wire from="(230,280)" to="(310,280)"/>
+    <wire from="(230,290)" to="(230,310)"/>
+    <wire from="(230,310)" to="(240,310)"/>
+    <wire from="(240,260)" to="(240,270)"/>
+    <wire from="(240,260)" to="(310,260)"/>
+    <wire from="(240,300)" to="(240,310)"/>
+    <wire from="(240,300)" to="(310,300)"/>
+    <wire from="(330,590)" to="(560,590)"/>
+    <wire from="(370,460)" to="(380,460)"/>
+    <wire from="(370,60)" to="(370,130)"/>
+    <wire from="(370,60)" to="(660,60)"/>
+    <wire from="(380,440)" to="(380,460)"/>
+    <wire from="(380,510)" to="(390,510)"/>
+    <wire from="(380,560)" to="(400,560)"/>
+    <wire from="(380,620)" to="(650,620)"/>
+    <wire from="(390,380)" to="(390,510)"/>
+    <wire from="(390,380)" to="(670,380)"/>
+    <wire from="(400,400)" to="(400,560)"/>
+    <wire from="(400,400)" to="(670,400)"/>
+    <wire from="(480,360)" to="(480,720)"/>
+    <wire from="(480,360)" to="(670,360)"/>
+    <wire from="(480,720)" to="(1290,720)"/>
+    <wire from="(530,260)" to="(620,260)"/>
+    <wire from="(560,100)" to="(560,190)"/>
+    <wire from="(560,100)" to="(660,100)"/>
+    <wire from="(560,190)" to="(1300,190)"/>
+    <wire from="(560,530)" to="(560,590)"/>
+    <wire from="(560,530)" to="(620,530)"/>
+    <wire from="(590,440)" to="(590,750)"/>
+    <wire from="(590,440)" to="(670,440)"/>
+    <wire from="(590,750)" to="(1370,750)"/>
+    <wire from="(620,260)" to="(620,340)"/>
+    <wire from="(620,340)" to="(670,340)"/>
+    <wire from="(620,530)" to="(620,670)"/>
+    <wire from="(620,530)" to="(640,530)"/>
+    <wire from="(620,670)" to="(670,670)"/>
+    <wire from="(640,530)" to="(640,540)"/>
+    <wire from="(640,540)" to="(660,540)"/>
+    <wire from="(650,270)" to="(960,270)"/>
+    <wire from="(650,420)" to="(650,620)"/>
+    <wire from="(650,420)" to="(670,420)"/>
+    <wire from="(650,620)" to="(650,650)"/>
+    <wire from="(650,650)" to="(670,650)"/>
+    <wire from="(650,70)" to="(650,270)"/>
+    <wire from="(650,70)" to="(670,70)"/>
+    <wire from="(660,50)" to="(660,60)"/>
+    <wire from="(660,50)" to="(670,50)"/>
+    <wire from="(660,90)" to="(660,100)"/>
+    <wire from="(660,90)" to="(670,90)"/>
+    <wire from="(880,540)" to="(1030,540)"/>
+    <wire from="(890,110)" to="(900,110)"/>
+    <wire from="(890,130)" to="(900,130)"/>
+    <wire from="(890,150)" to="(890,160)"/>
+    <wire from="(890,160)" to="(960,160)"/>
+    <wire from="(890,340)" to="(930,340)"/>
+    <wire from="(890,360)" to="(980,360)"/>
+    <wire from="(890,380)" to="(990,380)"/>
+    <wire from="(890,400)" to="(960,400)"/>
+    <wire from="(890,420)" to="(1040,420)"/>
+    <wire from="(890,50)" to="(900,50)"/>
+    <wire from="(890,610)" to="(1030,610)"/>
+    <wire from="(890,610)" to="(890,650)"/>
+    <wire from="(890,70)" to="(900,70)"/>
+    <wire from="(890,90)" to="(900,90)"/>
+    <wire from="(900,100)" to="(1230,100)"/>
+    <wire from="(900,110)" to="(900,120)"/>
+    <wire from="(900,120)" to="(1230,120)"/>
+    <wire from="(900,130)" to="(900,140)"/>
+    <wire from="(900,140)" to="(930,140)"/>
+    <wire from="(900,200)" to="(900,290)"/>
+    <wire from="(900,200)" to="(930,200)"/>
+    <wire from="(900,290)" to="(910,290)"/>
+    <wire from="(900,50)" to="(900,60)"/>
+    <wire from="(900,60)" to="(1040,60)"/>
+    <wire from="(900,70)" to="(900,80)"/>
+    <wire from="(900,80)" to="(1040,80)"/>
+    <wire from="(900,90)" to="(900,100)"/>
+    <wire from="(910,290)" to="(910,630)"/>
+    <wire from="(910,630)" to="(1030,630)"/>
+    <wire from="(930,140)" to="(930,200)"/>
+    <wire from="(930,140)" to="(960,140)"/>
+    <wire from="(930,210)" to="(1220,210)"/>
+    <wire from="(930,210)" to="(930,340)"/>
+    <wire from="(960,270)" to="(960,400)"/>
+    <wire from="(980,260)" to="(1320,260)"/>
+    <wire from="(980,260)" to="(980,360)"/>
+    <wire from="(990,380)" to="(990,650)"/>
+    <wire from="(990,650)" to="(1030,650)"/>
+  </circuit>
+  <circuit name="tester">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="tester"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="8.0"/>
+    <comp lib="0" loc="(530,390)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="BANCNOTE"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(530,390)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="0" loc="(560,460)" name="Clock"/>
+    <comp lib="0" loc="(580,420)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="COLA3lei"/>
+    </comp>
+    <comp lib="0" loc="(580,440)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="PEPSI4lei"/>
+    </comp>
+    <comp lib="0" loc="(600,480)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="REST"/>
+    </comp>
+    <comp lib="0" loc="(600,500)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="RESETDEV"/>
+    </comp>
+    <comp lib="0" loc="(820,400)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="bancnota5"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(820,420)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="bancnota1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(820,540)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="CREDIT"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(830,360)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="bancnotede1"/>
+      <a name="output" val="true"/>
+      <a name="width" val="6"/>
+    </comp>
+    <comp lib="0" loc="(830,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="bancnotede5"/>
+      <a name="output" val="true"/>
+      <a name="width" val="6"/>
+    </comp>
+    <comp lib="0" loc="(830,480)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="cola1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(830,500)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="cola2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(830,520)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="ERR"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="5" loc="(820,440)" name="LED">
+      <a name="color" val="#0af05d"/>
+    </comp>
+    <comp lib="5" loc="(820,460)" name="LED"/>
+    <comp loc="(820,360)" name="main_vending">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(550,360)" to="(600,360)"/>
+    <wire from="(550,370)" to="(600,370)"/>
+    <wire from="(550,380)" to="(550,400)"/>
+    <wire from="(550,400)" to="(600,400)"/>
+    <wire from="(560,460)" to="(600,460)"/>
+    <wire from="(580,420)" to="(600,420)"/>
+    <wire from="(580,440)" to="(600,440)"/>
+    <wire from="(600,370)" to="(600,380)"/>
+    <wire from="(820,360)" to="(830,360)"/>
+    <wire from="(820,380)" to="(830,380)"/>
+    <wire from="(820,480)" to="(830,480)"/>
+    <wire from="(820,500)" to="(830,500)"/>
+    <wire from="(820,520)" to="(830,520)"/>
+  </circuit>
+  <vhdl name="decodificator">
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY decodificator IS&#13;
+  PORT (&#13;
+    input1,input2,input3 : in std_logic;
+    semnal_out : out std_logic_vector (3 downto 0)
+    );&#13;
+END decodificator;&#13;
+
+&#13;
+ARCHITECTURE TypeArchitecture OF decodificator IS&#13;
+
+BEGIN&#13;
+&#13;
+process(input1,input2,input3)
+variable to_out: std_logic_vector (3 downto 0) := "0000";
+begin
+
+
+if( input1 = '1' AND  input2 ='0' AND input3 ='0') then
+to_out := "0001";
+elsif (input1 ='0'AND input2 = '1' AND input3 ='0') then
+to_out :="0101";
+elsif (input1 ='0' AND input2 = '0' AND input3 ='1')then
+to_out :="1010";
+elsif (input1 ='0' AND input2 = '0' AND input3 ='0')then
+to_out:="0000";
+end if;
+semnal_out &lt;= to_out;
+end process;
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="calculator">LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+&#13;
+ENTITY calculator IS&#13;
+  PORT (&#13;
+ input : in std_logic_vector(3 downto 0);
+   reset,vreaucola,vreaucola2,vreaurest,enable: in std_logic;
+   cola_1 ,cola_2:out std_logic;
+   output ,to_register:out std_logic_vector(3 downto 0);
+   error :out std_logic
+    );&#13;
+END calculator;&#13;
+
+&#13;
+ARCHITECTURE TypeArchitecture OF calculator IS&#13;
+
+BEGIN&#13;
+&#13;process(input,reset,vreaucola,vreaucola2,vreaurest)
+variable intern : std_logic_vector(4 downto 0) := "00000";
+variable std_err:std_logic :='0';
+variable cola1 :std_logic :='0';
+variable cola2 :std_logic :='0';
+variable nr_bauturi : integer :=0;
+variable req : std_logic_vector (3 downto 0) := "0000";
+variable to_reg : std_logic_vector (3 downto 0) :="0000";
+&#13;begin
+if(input /= "0000" AND enable ='0') then std_err := '1'; end if;
+
+if(input + intern &lt; "10000" AND enable ='1') then intern := intern +input;cola1 :='0'; cola2:='0'; std_err :='0';to_reg := input;
+elsif (input+intern &gt;"01111") then std_err :='1'; 
+else std_err :='0'; end if;
+
+if( vreaucola ='1' AND intern &gt; "00010" AND vreaucola2 ='0' AND reset ='0'  AND enable ='1') 
+then intern := intern - "00011";
+cola1 :='1';cola2:='0';
+nr_bauturi := nr_bauturi+1; 
+std_err :='0';
+end if;
+
+if( vreaucola2 ='1' AND intern &gt; "00011" AND vreaucola ='0' AND reset ='0'  AND enable ='1') 
+then intern := intern - "00100";
+cola2 :='1'; cola1:='0';
+nr_bauturi := nr_bauturi+1;
+std_err :='0';
+end if;
+
+if(reset ='1') 
+then intern :="00000"; 
+cola1 :='0'; cola2 :='0';
+std_err :='0';	
+end if;
+
+ if( vreaurest = '1'AND vreaucola2 ='0' AND vreaucola='0'  AND nr_bauturi =0 AND intern &gt; "01001") then intern := intern - "00001"; end if;
+
+
+output&lt;= intern(3)&amp;intern(2)&amp;intern(1)&amp;intern(0);
+cola_1 &lt;= cola1;
+cola_2 &lt;= cola2;
+error &lt;= std_err;
+to_register &lt;= to_reg;
+end process;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="registru_bancnote">
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY registru_bancnote IS&#13;
+  PORT (&#13;
+     reset : in std_logic ;
+     input_bancnote: in std_logic_vector ( 3 downto 0);
+     bancnote_request :in std_logic_vector(3 downto 0);
+     resurse1,resurse5 : out std_logic_vector (5 downto 0);
+     bancnote_5_out, bancnote_1_out ,ledverde,ledrosu: out std_logic
+     
+    );&#13;
+END registru_bancnote;&#13;
+&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF registru_bancnote IS&#13;
+&#13;
+BEGIN&#13;
+&#13;process(input_bancnote,bancnote_request,reset)
+variable nr_de_5 : std_logic_vector(5 downto 0) := "011111";
+variable nr_de_1 : std_logic_vector(5 downto 0) :="011111";
+variable b5out :std_logic :='0';
+variable b1out :std_logic :='0';
+variable flag : std_logic_vector (5 downto 0) := "011101";
+variable a : std_logic := '0';
+begin
+b1out:='0';b5out:='0';
+if(reset ='1' AND input_bancnote ="0000") then nr_de_5:= "011111"; nr_de_1 := "011111"; end if;
+
+if(nr_de_5 &lt; flag  OR nr_de_1 &lt;flag) then a:= '0'; 
+else a :='1'; end if;
+
+if(bancnote_request = "0001") then nr_de_1 := nr_de_1 -"000001"; b1out:='1'; b5out:='0'; 
+elsif(bancnote_request = "0101") then nr_de_5 := nr_de_5 - "000001"; b1out:='0'; b5out:='1'; end if;
+
+if(input_bancnote = "0001") then nr_de_1 := nr_de_1 + "000001"; 
+elsif(input_bancnote = "0101") then nr_de_5 := nr_de_5 + "000001"; end if;
+
+bancnote_5_out &lt;= b5out;
+bancnote_1_out &lt;= b1out;
+resurse5 &lt;= nr_de_5;
+resurse1 &lt;= nr_de_1;
+ledverde &lt;= a;
+ledrosu &lt;= not a ;
+end process;
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="SevenSegmentDecoder">library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity SevenSegmentDecoder is
+  port (
+    Input: in std_logic_vector(3 downto 0);
+    
+    output1 : out std_logic_vector(6 downto 0);
+    output2 :out std_logic_vector(6 downto 0)
+
+  );
+end entity SevenSegmentDecoder;
+
+architecture Behavioral of SevenSegmentDecoder is
+begin
+
+  process(Input)
+    variable Value0: integer range 0 to 15;
+   
+  begin
+    Value0 := to_integer(unsigned(Input(3 downto 0)));
+   
+    
+    case Value0 is
+      when 0 =&gt; output1 &lt;= "1111110"; output2 &lt;= "1111110";
+      when 1 =&gt; output1 &lt;= "0110000";output2 &lt;= "1111110";
+      when 2 =&gt; output1 &lt;= "1101101";output2 &lt;= "1111110";
+      when 3 =&gt; output1 &lt;= "1111001";output2 &lt;= "1111110";
+      when 4 =&gt; output1 &lt;= "0110011";output2 &lt;= "1111110";
+      
+      when 5 =&gt; output1 &lt;= "1011011";output2 &lt;= "1111110";
+      when 6 =&gt; output1 &lt;= "1011111";output2 &lt;= "1111110";
+      
+      when 7 =&gt; output1 &lt;= "1110000";output2 &lt;= "1111110";
+      when 8 =&gt; output1 &lt;= "1111111";output2 &lt;= "1111110";
+      when 9 =&gt; output1 &lt;= "1111011";output2 &lt;= "1111110";
+      
+      when 10 =&gt; output2 &lt;= "0110000"; output1 &lt;= "1111110";
+      when 11 =&gt; output2 &lt;="0110000"; output1 &lt;="0110000";
+      when 12 =&gt; output2 &lt;="0110000"; output1 &lt;="1101101";
+      when 13 =&gt;output2 &lt;="0110000"; output1 &lt;="1111001";
+      when 14 =&gt;output2&lt;="0110000";output1 &lt;="0110011";
+      when 15=&gt;output2&lt;="0110000";output1 &lt;="1011011";
+
+      
+    end case;
+    end process;
+    end architecture;</vhdl>
+  <vhdl name="ALU">LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY ALU IS&#13;
+  PORT (&#13;
+     clk ,vreaurest,OK: in std_logic;
+     input_credit : in  std_logic_vector(3 downto 0);
+     output_request : out std_logic_vector(3 downto 0);
+     semnal_reset ,disable: out std_logic
+    );&#13;
+END ALU;&#13;
+&#13;
+
+&#13;
+ARCHITECTURE TypeArchitecture OF ALU IS&#13;
+&#13;
+BEGIN&#13;
+&#13;process(clk,vreaurest)
+variable sum : std_logic_vector (3 downto 0) := "0000";
+variable req : std_logic_vector (3 downto 0) := "0000";
+variable cntrl : integer := 0;
+variable smn : std_logic := '0';
+variable in_process : std_logic := '0';
+variable enable_intern : std_logic := '1';
+variable delay : integer := 0 ;
+begin
+
+if(vreaurest='1' AND enable_intern = '1' AND OK ='1') then 
+sum := input_credit ;in_process := '1'; enable_intern := '0' ;end if;
+if(rising_edge(clk))  
+then  
+    if( sum &gt; 4 ) then req := "0101" ; sum := sum -5 ;cntrl := cntrl +1; in_process := '1';  
+elsif(sum &lt;5  AND sum &gt;0) then req :="0001" ; sum := sum -1;cntrl := cntrl +1;  in_process := '1'; 
+end if;  
+end if;  
+
+if(falling_edge(clk)) then req := "0000"; smn :='0'; end if;
+output_request &lt;= req;
+if(sum = "0000" and cntrl /= 0) then smn := '1'; in_process:= '0';enable_intern :='1'; end if;
+
+if(falling_edge(clk)) then smn :='0' ;cntrl :=0; end if;
+semnal_reset &lt;= smn;
+disable &lt;= not in_process;
+end process;&#13;
+
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="FrequencyDivider">
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY FrequencyDivider IS
+  PORT (
+Clock: in std_logic;
+		clk_1hz: out std_logic
+    );
+END FrequencyDivider;
+
+
+ARCHITECTURE TypeArchitecture OF FrequencyDivider IS
+BEGIN
+process (clock)
+	variable  var: std_logic_vector  (3 downto 0) := (others =&gt;'0');
+	begin
+		if rising_edge (clock) then
+			
+				var:=var+1;
+		
+		end if;
+	clk_1hz &lt;= var(3);
+end process;
+END TypeArchitecture;
+
+</vhdl>
+  <vhdl name="d_ff">
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY d_ff IS
+  PORT (
+  D,CLK : in std_logic;
+  Q:out std_logic
+    );
+END d_ff;
+ARCHITECTURE TypeArchitecture OF d_ff IS
+BEGIN
+process(CLK)
+begin
+if(rising_edge(clk)) then 
+Q&lt;='0';
+else
+Q&lt;=D;
+end if;
+end process;
+END TypeArchitecture;
+
+</vhdl>
+  <vhdl name="main_vending">--------------------------------------------------------------------------------&#13;
+-- Project :&#13; Vending machine
+-- File    :&#13;
+-- Autor   :&#13; Armega Andrei 321CC  , Alexandra Manloache 321CC , Elena Dulgheru 324CA
+-- Date    :&#13; 12/14/2023
+--&#13;
+
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY main_vending IS&#13;
+  PORT (&#13;
+  bancnota_1_leu , bancnota_5_leu, bancnota_10_leu ,cola ,pepsi,clk,rest,RESETDEV: in std_logic ;
+  bancnote_5_in_memorie , bancnote_1_in_memorie : out  std_logic_vector (5 downto 0);
+  rest5_catre_utilizator ,rest1_catre_utilizator ,se_poate_da_rest , nu_se_poate_da_rest :out std_logic;
+   eliberare_cola,eliberare_pepsi ,respingere_bancnota: out std_logic;
+   credit : out std_logic_vector (3 downto 0) 
+    );&#13;
+END main_vending;&#13;
+
+&#13;
+ARCHITECTURE TypeArchitecture OF main_vending IS&#13;
+&#13;component decodificator IS
+  PORT (
+    input1,input2,input3 : in std_logic;
+    semnal_out : out std_logic_vector (3 downto 0)
+    );
+END component;
+
+component calculator IS
+  PORT (
+ input : in std_logic_vector(3 downto 0);
+   reset,vreaucola,vreaucola2,vreaurest,enable: in std_logic;
+   cola_1 ,cola_2:out std_logic;
+   output ,to_register:out std_logic_vector(3 downto 0);
+   error :out std_logic
+    );
+END component;
+
+component registru_bancnote IS
+  PORT (
+     reset : in std_logic ;
+     input_bancnote: in std_logic_vector ( 3 downto 0);
+     bancnote_request :in std_logic_vector(3 downto 0);
+     resurse1,resurse5 : out std_logic_vector (5 downto 0);
+     bancnote_5_out, bancnote_1_out ,ledverde,ledrosu: out std_logic
+     
+    );
+END component;
+component ALU IS
+  PORT (
+     clk ,vreaurest,OK: in std_logic;
+     input_credit : in  std_logic_vector(3 downto 0);
+     output_request : out std_logic_vector(3 downto 0);
+     semnal_reset ,disable: out std_logic
+    );
+END component;
+
+component FrequencyDivider IS
+  PORT (
+Clock: in std_logic;
+		clk_1hz: out std_logic
+    );
+END component;
+
+component d_ff IS
+  PORT (
+  D,CLK : in std_logic;
+  Q:out std_logic
+    );
+END component;
+
+
+signal decodificator_to_calculator : std_logic_vector (3 downto 0) := "0000";
+signal ALU_to_calc_reset : std_logic := '0';
+signal ALU_to_calc_enable : std_logic := '0';
+signal output_from_calc :std_logic_vector (3 downto 0) := "0000";
+signal to_register_signal:std_logic_vector (3 downto 0) := "0000";
+signal clk_1_hertz ,q: std_logic :='0';
+signal ALU_to_register :std_logic_vector (3 downto 0) := "0000";
+signal for_green :std_logic :='0';
+BEGIN&#13;
+
+decod : decodificator port map (bancnota_1_leu , bancnota_5_leu, bancnota_10_leu,decodificator_to_calculator);
+calc : calculator port map (decodificator_to_calculator , ALU_to_calc_reset,cola,pepsi,rest,ALU_to_calc_enable,eliberare_cola,eliberare_pepsi,output_from_calc,to_register_signal,respingere_bancnota);
+div : FrequencyDivider port map (clk ,clk_1_hertz);
+reg : registru_bancnote port map (RESETDEV,to_register_signal,ALU_to_register, bancnote_1_in_memorie,bancnote_5_in_memorie,rest5_catre_utilizator ,rest1_catre_utilizator,for_green, nu_se_poate_da_rest);
+ff : d_ff port map(rest,clk,q);
+aluu : alu port map (clk_1_hertz,q,for_green,output_from_calc,ALU_to_register ,ALU_to_calc_reset ,ALU_to_calc_enable);
+se_poate_da_rest &lt;= for_green;&#13;
+credit &lt;= output_from_calc;
+END TypeArchitecture;&#13;
+------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY decodificator IS
+  PORT (
+    input1,input2,input3 : in std_logic;
+    semnal_out : out std_logic_vector (3 downto 0)
+    );
+END decodificator;
+
+
+ARCHITECTURE TypeArchitecture OF decodificator IS
+
+BEGIN
+
+process(input1,input2,input3)
+variable to_out: std_logic_vector (3 downto 0) := "0000";
+begin
+
+
+if( input1 = '1' AND  input2 ='0' AND input3 ='0') then
+to_out := "0001";
+elsif (input1 ='0'AND input2 = '1' AND input3 ='0') then
+to_out :="0101";
+elsif (input1 ='0' AND input2 = '0' AND input3 ='1')then
+to_out :="1010";
+elsif (input1 ='0' AND input2 = '0' AND input3 ='0')then
+to_out:="0000";
+end if;
+semnal_out &lt;= to_out;
+end process;
+
+END TypeArchitecture;
+
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY calculator IS
+  PORT (
+ input : in std_logic_vector(3 downto 0);
+   reset,vreaucola,vreaucola2,vreaurest,enable: in std_logic;
+   cola_1 ,cola_2:out std_logic;
+   output ,to_register:out std_logic_vector(3 downto 0);
+   error :out std_logic
+    );
+END calculator;
+
+
+ARCHITECTURE TypeArchitecture OF calculator IS
+
+BEGIN
+
+process(input,reset,vreaucola,vreaucola2,vreaurest)
+variable intern : std_logic_vector(4 downto 0) := "00000";
+variable std_err:std_logic :='0';
+variable cola1 :std_logic :='0';
+variable cola2 :std_logic :='0';
+variable nr_bauturi : integer :=0;
+variable req : std_logic_vector (3 downto 0) := "0000";
+variable to_reg : std_logic_vector (3 downto 0) :="0000";
+
+begin
+if(input /= "0000" AND enable ='0') then std_err := '1'; end if;
+
+if(input + intern &lt; "10000" AND enable ='1') then intern := intern +input;cola1 :='0'; cola2:='0'; std_err :='0';to_reg := input;
+elsif (input+intern &gt;"01111") then std_err :='1'; 
+else std_err :='0'; end if;
+
+if( vreaucola ='1' AND intern &gt; "00010" AND vreaucola2 ='0' AND reset ='0'  AND enable ='1') 
+then intern := intern - "00011";
+cola1 :='1';cola2:='0';
+nr_bauturi := nr_bauturi+1; 
+std_err :='0';
+end if;
+
+if( vreaucola2 ='1' AND intern &gt; "00011" AND vreaucola ='0' AND reset ='0'  AND enable ='1') 
+then intern := intern - "00100";
+cola2 :='1'; cola1:='0';
+nr_bauturi := nr_bauturi+1;
+std_err :='0';
+end if;
+
+if(reset ='1') 
+then intern :="00000"; 
+cola1 :='0'; cola2 :='0';
+std_err :='0';	
+end if;
+
+ if( vreaurest = '1'AND vreaucola2 ='0' AND vreaucola='0'  AND nr_bauturi =0 AND intern &gt; "01001") then intern := intern - "00001"; end if;
+
+
+output&lt;= intern(3)&amp;intern(2)&amp;intern(1)&amp;intern(0);
+cola_1 &lt;= cola1;
+cola_2 &lt;= cola2;
+error &lt;= std_err;
+to_register &lt;= to_reg;
+end process;
+END TypeArchitecture;
+
+
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY registru_bancnote IS
+  PORT (
+     reset : in std_logic ;
+     input_bancnote: in std_logic_vector ( 3 downto 0);
+     bancnote_request :in std_logic_vector(3 downto 0);
+     resurse1,resurse5 : out std_logic_vector (5 downto 0);
+     bancnote_5_out, bancnote_1_out ,ledverde,ledrosu: out std_logic
+     
+    );
+END registru_bancnote;
+
+
+ARCHITECTURE TypeArchitecture OF registru_bancnote IS
+
+BEGIN
+
+process(input_bancnote,bancnote_request,reset)
+variable nr_de_5 : std_logic_vector(5 downto 0) := "011111";
+variable nr_de_1 : std_logic_vector(5 downto 0) :="011111";
+variable b5out :std_logic :='0';
+variable b1out :std_logic :='0';
+variable flag : std_logic_vector (5 downto 0) := "011101";
+variable a : std_logic := '0';
+begin
+b1out:='0';b5out:='0';
+if(reset ='1' AND input_bancnote ="0000") then nr_de_5:= "011111"; nr_de_1 := "011111"; end if;
+
+if(nr_de_5 &lt; flag  OR nr_de_1 &lt;flag) then a:= '0'; 
+else a :='1'; end if;
+
+if(bancnote_request = "0001") then nr_de_1 := nr_de_1 -"000001"; b1out:='1'; b5out:='0'; 
+elsif(bancnote_request = "0101") then nr_de_5 := nr_de_5 - "000001"; b1out:='0'; b5out:='1'; end if;
+
+if(input_bancnote = "0001") then nr_de_1 := nr_de_1 + "000001"; 
+elsif(input_bancnote = "0101") then nr_de_5 := nr_de_5 + "000001"; end if;
+
+bancnote_5_out &lt;= b5out;
+bancnote_1_out &lt;= b1out;
+resurse5 &lt;= nr_de_5;
+resurse1 &lt;= nr_de_1;
+ledverde &lt;= a;
+ledrosu &lt;= not a ;
+end process;
+
+END TypeArchitecture;
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY ALU IS
+  PORT (
+     clk ,vreaurest,OK: in std_logic;
+     input_credit : in  std_logic_vector(3 downto 0);
+     output_request : out std_logic_vector(3 downto 0);
+     semnal_reset ,disable: out std_logic
+    );
+END ALU;
+
+
+
+ARCHITECTURE TypeArchitecture OF ALU IS
+
+BEGIN
+
+process(clk,vreaurest)
+variable sum : std_logic_vector (3 downto 0) := "0000";
+variable req : std_logic_vector (3 downto 0) := "0000";
+variable cntrl : integer := 0;
+variable smn : std_logic := '0';
+variable in_process : std_logic := '0';
+variable enable_intern : std_logic := '1';
+variable delay : integer := 0 ;
+begin
+if(vreaurest='1' AND enable_intern = '1' AND OK ='1') then 
+
+sum := input_credit ;in_process := '1'; enable_intern := '0' ;end if;
+
+  
+if(rising_edge(clk))  
+then  
+    if( sum &gt; 4 ) then req := "0101" ; sum := sum -5 ;cntrl := cntrl +1; in_process := '1';  
+elsif(sum &lt;5  AND sum &gt;0) then req :="0001" ; sum := sum -1;cntrl := cntrl +1;  in_process := '1'; 
+end if;  
+ 
+end if;  
+
+if(falling_edge(clk)) then req := "0000"; smn :='0'; end if;
+output_request &lt;= req;
+if(sum = "0000" and cntrl /= 0) then smn := '1'; in_process:= '0';enable_intern :='1'; end if;
+
+if(falling_edge(clk)) then smn :='0' ;cntrl :=0; end if;
+semnal_reset &lt;= smn;
+disable &lt;= not in_process;
+end process;
+END TypeArchitecture;
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY FrequencyDivider IS
+  PORT (
+Clock: in std_logic;
+		clk_1hz: out std_logic
+    );
+END FrequencyDivider;
+
+
+ARCHITECTURE TypeArchitecture OF FrequencyDivider IS
+BEGIN
+process (clock)
+	variable  var: std_logic_vector  (3 downto 0) := (others =&gt;'0');
+	begin
+		if rising_edge (clock) then
+			
+				var:=var+1;
+		
+		end if;
+	clk_1hz &lt;= var(3);
+end process;
+END TypeArchitecture;
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY d_ff IS
+  PORT (
+  D,CLK : in std_logic;
+  Q:out std_logic
+    );
+END d_ff;
+ARCHITECTURE TypeArchitecture OF d_ff IS
+BEGIN
+process(CLK)
+begin
+if(rising_edge(clk)) then 
+Q&lt;='0';
+else
+Q&lt;=D;
+end if;
+end process;
+END TypeArchitecture;
+</vhdl>
+</project>
